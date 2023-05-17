@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-17T13:04:57.183Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="K2PssVo2jqfT5oYxMcLQ" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-17T13:06:26.518Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="94q9hTqSrcwrvTmbEnTJ" version="21.3.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1135" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="100" pageHeight="400" math="0" shadow="0">
+    <mxGraphModel dx="250" dy="176" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="100" pageHeight="400" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -51,6 +51,9 @@
         <mxCell id="Hh3zc1nBaUJVhx_Zg7bn-1" value="Loop through and go till the n&#39;th number" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="240" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="k15g2rsWCexvvBxwIkHP-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Hh3zc1nBaUJVhx_Zg7bn-7" target="k15g2rsWCexvvBxwIkHP-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Hh3zc1nBaUJVhx_Zg7bn-7" value="Print (&quot;Perfect Number&quot;)" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="320" y="100" width="120" height="60" as="geometry" />
         </mxCell>
@@ -59,6 +62,9 @@
         </mxCell>
         <mxCell id="Hh3zc1nBaUJVhx_Zg7bn-21" value="Yes" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="400" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k15g2rsWCexvvBxwIkHP-0" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="345" y="30" width="70" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
