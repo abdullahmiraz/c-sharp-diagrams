@@ -1,29 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-05-17T13:44:28.929Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="oXk5TxNtkcRmrCgvb7sj" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-17T13:49:01.405Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="byzdGinGZi-3HQS85o9u" version="21.3.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="401" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2100" dy="1054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="JBTxOTqdsFNQTq29Rtnv-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JBTxOTqdsFNQTq29Rtnv-0" target="JBTxOTqdsFNQTq29Rtnv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JBTxOTqdsFNQTq29Rtnv-0" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="220" y="120" width="70" height="50" as="geometry" />
+          <mxGeometry x="50" y="50" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JBTxOTqdsFNQTq29Rtnv-1" value="input : n=5&amp;nbsp;&lt;br&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="195" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="25" y="120" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JBTxOTqdsFNQTq29Rtnv-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JBTxOTqdsFNQTq29Rtnv-2" target="JBTxOTqdsFNQTq29Rtnv-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JBTxOTqdsFNQTq29Rtnv-2" value="start a loop(parent) from 1 to n-1&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="230" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JBTxOTqdsFNQTq29Rtnv-3" value="Print spaces based on the iterations" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="230" y="400" width="120" height="60" as="geometry" />
+        <mxCell id="JBTxOTqdsFNQTq29Rtnv-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JBTxOTqdsFNQTq29Rtnv-3" target="JBTxOTqdsFNQTq29Rtnv-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="390" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="JBTxOTqdsFNQTq29Rtnv-4" value="inside the parent loop print * from 1 to (2*i-1)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="240" y="500" width="130" height="60" as="geometry" />
+        <mxCell id="JBTxOTqdsFNQTq29Rtnv-3" value="Print spaces based on the iterations&lt;br&gt;(int&lt;span style=&quot;font-size: 9.5pt; line-height: 107%; font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt; j = n - i - 1; j &amp;gt;= 1; j--)&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="7.5" y="350" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JBTxOTqdsFNQTq29Rtnv-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JBTxOTqdsFNQTq29Rtnv-4" target="JBTxOTqdsFNQTq29Rtnv-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBTxOTqdsFNQTq29Rtnv-4" value="inside the parent loop print * from 1 to (2*i-1)&lt;br&gt;(&lt;span style=&quot;font-size:9.5pt;line-height:107%;font-family:&amp;quot;Cascadia Mono&amp;quot;;mso-fareast-font-family:&lt;br/&gt;Calibri;mso-fareast-theme-font:minor-latin;mso-bidi-font-family:&amp;quot;Cascadia Mono&amp;quot;;&lt;br/&gt;color:blue;mso-font-kerning:0pt;mso-ansi-language:EN-US;mso-fareast-language:&lt;br/&gt;EN-US;mso-bidi-language:AR-SA&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;font-size: 9.5pt; line-height: 107%; font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt; k = 1; k &amp;lt; 2 * (i - 1); k++)&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="150" y="270" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JBTxOTqdsFNQTq29Rtnv-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JBTxOTqdsFNQTq29Rtnv-7" target="JBTxOTqdsFNQTq29Rtnv-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JBTxOTqdsFNQTq29Rtnv-7" value="after the parent loop add another loop, but reverse it" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="260" y="585" width="120" height="60" as="geometry" />
+          <mxGeometry x="223" y="106" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JBTxOTqdsFNQTq29Rtnv-8" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="270" y="710" width="120" height="80" as="geometry" />
+          <mxGeometry x="247.5" y="36" width="71" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
